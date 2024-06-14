@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    float base, altura, area, perimetro;
+    printf("Bienvenido al programa donde usted podrá ingresar los valores de los lados de un rectangulo, y tendra como respuesta su area, y perimetro\n");
+    printf("ingrese los valores de altura y base del rectangulo\n");
+    scanf("%f %f", &base, &altura);
+    perimetro=base*2+altura*2;
+    area=base*altura;
+    printf("el perimetro de su rectangulo es de %f y el valor del area de su rectangulo es de %f", perimetro, area);
+    return 0;
+}
