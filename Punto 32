@@ -1,0 +1,15 @@
+int main(){
+   int num, numres;
+   
+    printf("Ingrese el valor de su numero: ");
+    scanf("%d",&num);
+    numres = num % 2;
+    
+   if(numres == 1){
+       printf("El numero es impar");
+   }else{
+       printf("El numero es par");
+   }
+    
+   return 0;
+}
